@@ -1,1 +1,1 @@
-# mern-stack-lecture
+# mern-mean-lecture
