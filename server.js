@@ -20,7 +20,7 @@ app.use("/todos", todoRouter);
 app.use(errorHandler);
 
 app.use(express.static("./client/dist"));
-app.get("*", (_, res) => {
+app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"));
 });
 
